@@ -13,23 +13,23 @@ This dataset is a real-time data using Uber&Lyft api queries and corresponding w
   * Was there a Red Sox match at Fenway that caused more people coming in?
   
   
-Steps (What we did) :: 
-  1. Reduce memory usage, Checking Data info (With Pandas).
-  2. Handle missing Values.
-  3. EDA :: \
-            A. Divide columns on the basis of Category, Continous Values. \
-            B. Histogram plot of Category values WRT Price Columns \
-            C. Scatter Plot of Continous values WRT Price Columns \
-            D. Average weather data WRT Locations Columns (Because we have only data of one week.) and copy it in Pickup locations and Destination Locations data.\
-            E. Merge Uber Ride Data, Pickup Weather Data, Destination Weather Data \
-            D. Corelation WRT diffrent columns and WRT Price columns
+- Steps (What we did) :: 
+  - Reduce memory usage, Checking Data info (With Pandas).
+  - Handle missing Values.
+  - EDA :: 
+    1. Divide columns on the basis of Category, Continous Values.
+    2. Histogram plot of Category values WRT Price Columns 
+    3. Scatter Plot of Continous values WRT Price Columns
+    4. Average weather data WRT Locations Columns (Because we have only data of one week.) and copy it in Pickup locations and Destination Locations data
+    5. Merge Uber Ride Data, Pickup Weather Data, Destination Weather Data
+    6. Corelation WRT diffrent columns and WRT Price columns
 
-  4. Prediction :: \
-            A. One Hot encoding \
-            B. Preprocessing Data for prediction \
-            C. Standardisation \
-            D. Prediction by Linear Regression \
-            E. Accuracy :: 0.92 
+  - Prediction ::
+    1. One Hot encoding 
+    2. Preprocessing Data for prediction
+    3. Standardisation
+    4. Prediction by Linear Regression
+    5. Accuracy :: 0.92 
  
 
 
